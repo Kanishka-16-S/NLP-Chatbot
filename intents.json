@@ -1,0 +1,169 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good evening", "hello there", "hi there", "hey there", "good day", "hii", "heyy", "yo", "what is up", "sup"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! Ask me anything.", "Hey! I am your smart chatbot.", "Good day! What can I help you with?", "Hey! How are you doing today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "exit", "quit", "see you later", "stop", "see ya", "later", "farewell", "take care", "byebye"],
+      "responses": ["Goodbye! Have a wonderful day.", "Chat ended. See you again!", "Bye! Feel free to come back anytime.", "Take care! It was nice talking to you.", "See you later!"]
+    },
+    {
+      "tag": "identity",
+      "patterns": ["who are you", "what is your name", "what are you", "tell me about yourself", "are you a bot", "your name", "identify yourself", "what should i call you", "who created you", "what is this bot"],
+      "responses": ["I am a Smart NLP Chatbot designed to help you.", "I am your virtual AI assistant.", "You can call me your intelligent chatbot.", "I am an AI chatbot created to assist with your questions.", "I am a smart assistant powered by artificial intelligence."]
+    },
+    {
+      "tag": "artificial_intelligence",
+      "patterns": ["what is ai", "what is artificial intelligence", "what is AI", "define ai", "explain AI", "tell me about AI", "ai meaning", "artificial intelligence definition", "what does ai stand for", "ai basics", "how does ai work"],
+      "responses": ["Artificial Intelligence (AI) is the simulation of human intelligence in machines programmed to think and learn like humans.", "AI refers to systems that can perform tasks that typically require human intelligence, such as problem-solving, learning, and decision-making.", "Artificial Intelligence is a branch of computer science that aims to create machines capable of intelligent behavior."]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": ["what is ml", "what is machine learning", "what is ML", "define machine learning", "explain ML", "tell me about ML", "machine learning basics", "how does machine learning work"],
+      "responses": ["Machine Learning (ML) is a subset of AI that enables systems to learn and improve from experience without being explicitly programmed.", "Machine Learning is an approach where computers learn patterns from data rather than being explicitly programmed for specific tasks."]
+    },
+    {
+      "tag": "nlp",
+      "patterns": ["what is nlp", "what is NLP", "what is natural language processing", "define nlp", "explain NLP", "tell me about nlp", "nlp basics", "how does nlp work"],
+      "responses": ["Natural Language Processing (NLP) is a branch of AI that helps computers understand, interpret, and manipulate human language.", "NLP enables machines to read, understand, and derive meaning from human languages through computational linguistics."]
+    },
+    {
+      "tag": "deep_learning",
+      "patterns": ["what is deep learning", "what is DL", "explain deep learning", "deep learning explained", "neural networks", "what are neural networks"],
+      "responses": ["Deep Learning is a subset of machine learning that uses neural networks with multiple layers to learn complex patterns from data.", "Deep Learning mimics the human brain structure to process data and create patterns for decision making."]
+    },
+    {
+      "tag": "python",
+      "patterns": ["what is python", "python programming", "learn python", "python basics", "what is python used for", "python full form", "why python"],
+      "responses": ["Python is a high-level, interpreted programming language known for its simplicity and readability.", "Python is widely used in AI, ML, web development, data science, and automation.", "Python is an easy-to-learn programming language with simple syntax."]
+    },
+    {
+      "tag": "java",
+      "patterns": ["what is java", "java programming", "learn java", "java basics", "what is java used for"],
+      "responses": ["Java is a high-level, object-oriented programming language designed to be platform-independent.", "Java is widely used for building enterprise applications, Android apps, and web services."]
+    },
+    {
+      "tag": "javascript",
+      "patterns": ["what is javascript", "js programming", "learn javascript", "javascript basics", "what is javascript used for", "what is js"],
+      "responses": ["JavaScript is a scripting language used for creating interactive web pages.", "JavaScript is the language of the web, used for front-end and back-end development."]
+    },
+    {
+      "tag": "web_development",
+      "patterns": ["what is web development", "how to learn web development", "web development basics", "what is HTML", "what is CSS", "what is web design"],
+      "responses": ["Web development is the process of building and maintaining websites.", "HTML is for structure, CSS is for styling, and JavaScript is for interactivity."]
+    },
+    {
+      "tag": "data_science",
+      "patterns": ["what is data science", "data science basics", "learn data science", "what is data analysis", "data science career"],
+      "responses": ["Data Science involves extracting insights from data using statistics, programming, and machine learning.", "Data Science combines programming, math, and statistics to analyze and interpret complex data."]
+    },
+    {
+      "tag": "cloud_computing",
+      "patterns": ["what is cloud computing", "what is AWS", "what is Azure", "what is Google Cloud", "cloud computing basics", "what is cloud"],
+      "responses": ["Cloud computing is the delivery of computing services over the internet, including servers, storage, databases, and software.", "AWS, Azure, and Google Cloud are major cloud platforms that provide computing, storage, and services over the internet."]
+    },
+    {
+      "tag": "cybersecurity",
+      "patterns": ["what is cybersecurity", "what is hacking", "how to stay safe online", "cybersecurity basics", "cyber security", "what is encryption"],
+      "responses": ["Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks.", "Stay safe online by using strong passwords, updating software, and being cautious of suspicious links."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell me a joke", "say a joke", "joke", "funny", "make me laugh", "another joke", "crack a joke", "jokes please", "give me a joke", "funny story"],
+      "responses": ["Why did the AI go to therapy? Because it had too many deep learning issues!", "Why do programmers prefer dark mode? Because light attracts bugs!", "What do you call a computer that sings? A-Dell!", "Why was the JavaScript developer sad? Because he did not Node how to Express himself!", "How many programmers does it take to change a lightbulb? None, that is a hardware problem!"]
+    },
+    {
+      "tag": "movie_recommendation",
+      "patterns": ["movie recommendations", "suggest a movie", "recommend movies", "what should i watch", "good movies", "best movies", "movie suggestions", "films to watch", "netflix recommendations", "action movies", "comedy movies", "sci-fi movies"],
+      "responses": ["Here are some great movies: Inception, The Matrix, Interstellar, The Shawshank Redemption, Parasite.", "I recommend: For action lovers - The Dark Knight. For sci-fi fans - Blade Runner 2049, Arrival. For comedy - Superbad, Palm Springs."]
+    },
+    {
+      "tag": "book_recommendation",
+      "patterns": ["book recommendations", "suggest a book", "recommend books", "what should i read", "good books", "best books", "book suggestions", "novels to read", "books to read"],
+      "responses": ["Great books: The Alchemist by Paulo Coelho, 1984 by George Orwell, To Kill a Mockingbird by Harper Lee.", "For tech: Clean Code by Robert Martin, The Pragmatic Programmer, Deep Learning by Ian Goodfellow."]
+    },
+    {
+      "tag": "music_recommendation",
+      "patterns": ["music recommendations", "suggest music", "recommend songs", "good music", "what should i listen", "music suggestions", "best songs", "new music"],
+      "responses": ["Great music genres: Pop, Rock, Jazz, Classical, EDM, Hip-Hop. What genre do you like?", "I recommend checking out current top charts on Spotify or exploring curated playlists."]
+    },
+    {
+      "tag": "time",
+      "patterns": ["what time is it", "what is the time", "time please", "tell me the time", "current time", "time now", "clock"],
+      "responses": ["I do not have access to real-time data. Please check your device clock!", "I can not tell you the current time, but you can check your computer or phone clock!"]
+    },
+    {
+      "tag": "date",
+      "patterns": ["what date is it", "what is the date", "today date", "tell me the date", "current date", "what day is it", "what month is it"],
+      "responses": ["I do not have access to real-time data. Please check your device calendar!", "I can not tell you today date, but your device should display it!"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["what is the weather", "weather", "how is the weather", "is it raining", "temperature", "weather forecast", "will it rain today", "is it sunny"],
+      "responses": ["I do not have access to real-time weather data. Please check a weather app like weather.com!", "I can not check the weather for you, but weather apps on your phone can give you accurate forecasts!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "help me", "what can you do", "how can you help", "capabilities", "what all can you do", "help me please", "i need help", "can you help", "support"],
+      "responses": ["I can help you with AI and Technology questions, Movie and Book recommendations, Jokes, Programming help, and General knowledge.", "I can answer questions about AI, ML, NLP, programming, recommend movies, books, tell jokes, and more! Just ask!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "appreciate it", "thank you so much", "many thanks", "thx", "ty", "thankyou", "great thanks", "ok thanks"],
+      "responses": ["You are welcome!", "Happy to help!", "Anytime!", "Glad I could help!", "My pleasure! Feel free to ask if you need anything else."]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["how are you", "how are you doing", "how do you do", "how is it going", "you doing good", "how are things", "are you okay", "what is up with you"],
+      "responses": ["I am doing great, thank you for asking! I am ready to help you with any questions.", "I am functioning perfectly and ready to assist you! How are you doing?", "I am doing well! Thanks for asking. What can I help you with today?"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old are you", "what is your age", "when were you created", "your birthday", "when is your birthday", "how old is the chatbot"],
+      "responses": ["I was just created, so I am very young! Age is just a number for AI.", "I do not have an age like humans, but I was recently trained!", "I was created recently and I am constantly learning and improving!"]
+    },
+    {
+      "tag": "favorite",
+      "patterns": ["what is your favorite color", "what do you like", "your favorite thing", "favorite movie", "favorite food", "favorite programming language", "your favorite"],
+      "responses": ["As an AI, I do not have personal preferences, but I think blue is a popular color!", "I do not eat food, but I find all topics interesting!", "I do not have favorites, but I love helping people and answering questions!"]
+    },
+    {
+      "tag": "can_you",
+      "patterns": ["can you help me", "can you do this", "can you answer", "can you tell", "can you explain", "can you recommend"],
+      "responses": ["Yes, I can help! Just ask me anything.", "Of course! I am here to assist you.", "Sure! What would you like to know?", "Absolutely! How can I help you today?"]
+    },
+    {
+      "tag": "yes",
+      "patterns": ["yes", "yeah", "sure", "okay", "alright", "correct", "ok", "yep", "ya"],
+      "responses": ["Great! What would you like to know next?", "Awesome! Ask me anything.", "Perfect! I am here to help.", "Excellent! What else can I help you with?"]
+    },
+    {
+      "tag": "no",
+      "patterns": ["no", "nope", "not", "wrong", "incorrect", "na", "not really"],
+      "responses": ["No problem! Let me know if you have other questions.", "Okay! Feel free to ask something else.", "Alright! What else can I help you with?", "No worries! I am here if you need anything."]
+    },
+    {
+      "tag": "sorry",
+      "patterns": ["sorry", "apologies", "my bad", "excuse me", "forgive me", "apologize"],
+      "responses": ["No worries! We are all human.", "It is okay! No problem at all.", "Do not worry about it!", "Apology accepted! How can I help you?"]
+    },
+    {
+      "tag": "spanish",
+      "patterns": ["hola", "como estas", "adios", "gracias", "hola amigo", "que tal"],
+      "responses": ["Hola! Como puedo ayudarte?", "Hola amigo! Como estas?", "Adios! Hasta luego!", "Gracias! De nada!"]
+    },
+    {
+      "tag": "french",
+      "patterns": ["bonjour", "comment ca va", "au revoir", "merci", "bonjour ami"],
+      "responses": ["Bonjour! Comment puis-je vous aider?", "Bonjour ami! Comment ca va?", "Au revoir! A bientot!", "Merci! De rien!"]
+    },
+    {
+      "tag": "fallback",
+      "patterns": ["i do not understand", "what do you mean", "confused", "explain", "huh", "what", "random", "blah"],
+      "responses": ["Sorry, I did not understand that. Can you rephrase your question?", "I am not sure about that. Try asking something else.", "Could you please try again with different words?"]
+    }
+  ]
+}
